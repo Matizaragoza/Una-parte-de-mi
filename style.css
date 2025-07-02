@@ -1,0 +1,185 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bebas+Neue&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bebas+Neue&family=Edu+QLD+Hand:wght@400..700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Alumni+Sans+SC:ital,wght@0,100..900;1,100..900&family=Bebas+Neue&family=Edu+NSW+ACT+Hand+Pre:wght@400..700&family=Edu+QLD+Hand:wght@400..700&family=Manufacturing+Consent&display=swap');
+
+/*CSS HOME*/
+*{
+    padding: 0px;
+    margin: 0px;
+    background-color: gray;
+    font-size: 15px;
+    color: white
+}
+.header-conteiner{
+   
+    background-color: white;
+}
+.navbar-nav{
+    margin: 10px;
+    gap: 300px;
+}
+.nav-link{
+    color: rgb(0, 0, 0);
+    font-family: "Alumni Sans SC", sans-serif;
+    font-size: 25px;
+}
+h5{
+    text-align: center;
+    font-family: "Alumni Sans SC", sans-serif;
+    font-size: 30px;
+    color: black;
+}
+.section-conteiner{
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+    text-align: center;
+    gap: 30px;
+    font-family: cursive;
+}
+.section-conteiner2{
+    display: flex;
+    flex-direction: row-reverse;
+    font-family: cursive;
+}   
+.div-conteiner{
+    margin-top: 150px;
+    text-align: center;
+    padding: 15px;
+}
+.footer-conteiner{
+    text-align: center;  
+}
+/*MEDIA HOME*/
+@media (max-width: 768px) {
+  .navbar-nav {
+    flex-direction: column;
+    gap: 10px;
+    margin: 5px;
+    align-items: center;
+  }
+
+  .nav-link {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .section-conteiner,
+  .section-conteiner2 {
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  .div-conteiner {
+    margin-top: 50px;
+    padding: 10px;
+  }
+
+  h5 {
+    font-size: 18px;
+    text-align: center;
+  }
+  .img-home{
+    width: 200px;
+  }
+}
+/*CSS FAMILIA.HTL*/
+.parrafo-conteiner{
+    margin-top: 60px;
+}
+
+.section-conteiner3{
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+    gap: 250px;
+    font-family: cursive;
+}
+/*CSS AMIGOS*/
+.section-conteiner4{
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+    gap: 215px;
+    text-align: center;
+    font-family: cursive;
+}
+.section-conteiner5{
+    display: flex;
+    flex-direction: row;
+    margin-right: 122px;
+    gap: 150px;
+    padding: 5px;
+    text-align: center; 
+    font-family: cursive;
+}
+/*CSS FUTBOL*/
+.section-conteiner6{
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+    text-align: center;
+    gap: 30px;
+    font-family: cursive;
+    margin-top: 30px;
+}
+.section-conteiner7{
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+    text-align: center;
+    gap: 250px;
+    font-family: cursive;
+    margin-top: 30px;
+}
+/* CSS AUTOS*/
+.section-conteiner8{
+    display: flex;
+    padding: 5px;
+    text-align: center;
+    font-family: cursive;
+}
+.section-conteiner9{
+    display: flex;
+    padding: 5px;
+    text-align: center;
+    font-family: cursive;  
+    margin-top: 140px;
+}
+.parrafo-conteiner1{
+    margin-top: 100px;
+}
+/*MEDIA*/
+@media (max-width: 768px){ 
+  .navbar-nav {
+    flex-direction: column;
+    gap: 10px;
+    margin: 5px;
+    align-items: center;
+  }
+
+  .nav-link {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .section-conteiner,
+  .section-conteiner8 {
+    flex-direction: column;
+    padding: 10px;
+  }
+
+
+  h5 {
+    font-size: 18px;
+    text-align: center;
+  }
+  .img-home{
+    width: 200px;
+  }
+}
+
+
